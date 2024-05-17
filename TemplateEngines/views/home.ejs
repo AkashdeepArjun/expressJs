@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+
+    <h1>Welcome to Our Helping Hand lol </h1>
+   <%= msg.toUpperCase() %>
+   <% if(rating>8)
+        {%>  <h1>user rating :<%=rating%></h1>     <%}
+    else if(rating===9){%> <h1> you have surpassed madara uchiha</h1><%}
+    else {%> <h1>it cant be helped lol</h1><%}
+%>
+    
+<%  
+
+    for(let i =1;i<=5;i++)
+    {%>  <h1>potao with index <%= i %></h1>   <%}
+
+
+%>
+
+
+<% const d=[16,2,3,4,5] %>
+
+<% 
+
+    for( let v of d){%> <h1> <%=v %></h1>        <%}
+
+
+%>
+
+
+<% var cur= new Date() %>
+<h1><%=cur %></h1>
+
+</body>
+<script type="text/javascript" src="../js/home.js"></script>
+</html>

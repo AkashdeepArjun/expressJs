@@ -1,0 +1,7 @@
+./ControllersDemo/node_modules
+./ExpressIntro/node_modules
+./Middlewares/node_modules
+./QueryString/node_modules
+./SendDataDeno/node_modules
+./TemplateEngines/node_modules
+./WithoutExpress/node_modules
